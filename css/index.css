@@ -354,6 +354,7 @@ a {
   border: solid 1px black;
   box-shadow: 3px 3px black;
   margin-top: 16px;
+  padding: 50
 }
 
 @media screen and (max-width: 900px) {
@@ -386,7 +387,30 @@ a {
   box-shadow: inset -1px -1px #404040, inset -2px -2px #808080, inset 1px 1px #d4d0c8, inset 2px 2px #ffffff;
 }
 
+::-webkit-scrollbar-button:single-button:decrement {
+  background: url("../images/icons/grid_scroll-up.png");
+  height: 16px;
+  width: 16px;
+}
 
+::-webkit-scrollbar-button:single-button:decrement:active {
+  background: url("../images/icons/grid_scroll-up_press.png");
+  height: 16px;
+  width: 16px;
+}
+
+::-webkit-scrollbar-button:single-button:increment {
+  background: url("../images/icons/grid_scroll-down.png");
+  height: 16px;
+  width: 16px;
+  
+}
+
+::-webkit-scrollbar-button:single-button:increment:active {
+  background: url("../images/icons/grid_scroll-down_press.png");
+  height: 16px;
+  width: 16px;
+}
 
 /* FOOTER */
 .footer {
@@ -506,4 +530,29 @@ p {
 
 @keyframes fly {
   100% {background-position: -6200px 0px;}
+}
+
+.intro {
+  padding: 50px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.intro > h2 {
+  font-size: 30px;
+}
+
+.intro > h1 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 0px;
+}
+
+.intro > p {
+  margin-bottom: 10px;
+}
+
+.icons > img {
+  height: 50px;
+  margin: 10px;
 }

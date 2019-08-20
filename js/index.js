@@ -1,3 +1,5 @@
+
+
 $(window).resize(function() {
   $(".items").children().each(function() {
     $(this).removeClass("hidden");
