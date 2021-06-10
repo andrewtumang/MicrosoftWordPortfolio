@@ -16,6 +16,9 @@ body {
   overflow-x: hidden;
 }
 
+.header {
+	height: 114px;
+}
 
 
 
@@ -279,7 +282,7 @@ a {
 
 /* DOCUMENT */
 .document {
-  height: 100%;
+  height: calc(100% - 141px);
   box-shadow: -1px -1px #404040, -2px -2px #808080, -2px 0px #808080, 0px -2px #808080, 0px 1px #FFFFFF;
   margin-top: 2px;
   margin-right: 1px;
@@ -414,6 +417,7 @@ a {
 
 /* FOOTER */
 .footer {
+  height: 25px;
   background: #d4d0c8;
   border-top: solid 1px white;
 }
